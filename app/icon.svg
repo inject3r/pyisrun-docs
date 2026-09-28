@@ -1,0 +1,61 @@
+<svg viewBox="0 0 100 100" fill="none" xmlns="http://www.w3.org/2000/svg">
+<defs>
+  <radialGradient id="pylsBg" cx="30%" cy="20%" r="95%">
+    <stop offset="0" stop-color="#1a1f26"/>
+    <stop offset="0.55" stop-color="#0e1116"/>
+    <stop offset="1" stop-color="#08090b"/>
+  </radialGradient>
+  <linearGradient id="pylsDie" x1="20" y1="20" x2="80" y2="80" gradientUnits="userSpaceOnUse">
+    <stop offset="0" stop-color="#171b21"/>
+    <stop offset="1" stop-color="#0b0d10"/>
+  </linearGradient>
+  <linearGradient id="pylsTrace" x1="15" y1="50" x2="85" y2="50" gradientUnits="userSpaceOnUse">
+    <stop offset="0" stop-color="#FFB454"/>
+    <stop offset="0.5" stop-color="#FFC978"/>
+    <stop offset="1" stop-color="#7EE787"/>
+  </linearGradient>
+  <linearGradient id="pylsBus" x1="20" y1="0" x2="80" y2="0" gradientUnits="userSpaceOnUse">
+    <stop offset="0" stop-color="#FFFFFF" stop-opacity="0.02"/>
+    <stop offset="0.5" stop-color="#FFFFFF" stop-opacity="0.09"/>
+    <stop offset="1" stop-color="#FFFFFF" stop-opacity="0.02"/>
+  </linearGradient>
+  <radialGradient id="pylsNodeGlow" cx="50%" cy="50%" r="50%">
+    <stop offset="0" stop-color="#7EE787" stop-opacity="0.9"/>
+    <stop offset="0.5" stop-color="#7EE787" stop-opacity="0.3"/>
+    <stop offset="1" stop-color="#7EE787" stop-opacity="0"/>
+  </radialGradient>
+  <radialGradient id="pylsPulseGlow" cx="50%" cy="50%" r="50%">
+    <stop offset="0" stop-color="#FFB454" stop-opacity="0.95"/>
+    <stop offset="1" stop-color="#FFB454" stop-opacity="0"/>
+  </radialGradient>
+  <filter id="pylsGlow" x="-40%" y="-40%" width="180%" height="180%">
+    <feGaussianBlur stdDeviation="1.4" result="blur"/>
+    <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+  </filter>
+</defs>
+<rect width="100" height="100" rx="22" fill="url(#pylsBg)"/>
+<rect x="1.5" y="1.5" width="97" height="97" rx="21" stroke="#FFFFFF" stroke-opacity="0.07" stroke-width="1.2" fill="none"/>
+<g stroke="#FFFFFF" stroke-opacity="0.16" stroke-width="1.6" stroke-linecap="round">
+  <line x1="24" y1="4" x2="24" y2="14"/><line x1="36" y1="4" x2="36" y2="14"/><line x1="48" y1="4" x2="48" y2="14"/><line x1="60" y1="4" x2="60" y2="14"/><line x1="72" y1="4" x2="72" y2="14"/>
+  <line x1="24" y1="86" x2="24" y2="96"/><line x1="36" y1="86" x2="36" y2="96"/><line x1="48" y1="86" x2="48" y2="96"/><line x1="60" y1="86" x2="60" y2="96"/><line x1="72" y1="86" x2="72" y2="96"/>
+  <line x1="4" y1="24" x2="14" y2="24"/><line x1="4" y1="36" x2="14" y2="36"/><line x1="4" y1="48" x2="14" y2="48"/><line x1="4" y1="60" x2="14" y2="60"/><line x1="4" y1="72" x2="14" y2="72"/>
+  <line x1="86" y1="24" x2="96" y2="24"/><line x1="86" y1="36" x2="96" y2="36"/><line x1="86" y1="48" x2="96" y2="48"/><line x1="86" y1="60" x2="96" y2="60"/><line x1="86" y1="72" x2="96" y2="72"/>
+</g>
+<rect x="16" y="16" width="68" height="68" rx="8" fill="url(#pylsDie)" stroke="#2a3138" stroke-opacity="0.8" stroke-width="1"/>
+<rect x="17.5" y="17.5" width="65" height="65" rx="6.5" stroke="#FFFFFF" stroke-opacity="0.05" stroke-width="1" fill="none"/>
+<g stroke="url(#pylsBus)" stroke-width="1">
+  <line x1="20" y1="32" x2="80" y2="32"/><line x1="20" y1="42" x2="80" y2="42"/><line x1="20" y1="52" x2="80" y2="52"/><line x1="20" y1="62" x2="80" y2="62"/><line x1="20" y1="72" x2="80" y2="72"/>
+</g>
+<g fill="#FFFFFF" fill-opacity="0.04" stroke="#FFFFFF" stroke-opacity="0.08" stroke-width="0.5">
+  <rect x="23" y="28" width="4" height="6" rx="0.8"/><rect x="32.5" y="28" width="4" height="6" rx="0.8"/><rect x="42" y="28" width="4" height="6" rx="0.8"/><rect x="51.5" y="28" width="4" height="6" rx="0.8"/><rect x="61" y="28" width="4" height="6" rx="0.8"/><rect x="70.5" y="28" width="4" height="6" rx="0.8"/>
+  <rect x="23" y="38" width="4" height="6" rx="0.8"/><rect x="32.5" y="38" width="4" height="6" rx="0.8"/><rect x="42" y="38" width="4" height="6" rx="0.8"/><rect x="51.5" y="38" width="4" height="6" rx="0.8"/><rect x="61" y="38" width="4" height="6" rx="0.8"/><rect x="70.5" y="38" width="4" height="6" rx="0.8"/>
+  <rect x="23" y="48" width="4" height="6" rx="0.8"/><rect x="32.5" y="48" width="4" height="6" rx="0.8"/><rect x="42" y="48" width="4" height="6" rx="0.8"/><rect x="51.5" y="48" width="4" height="6" rx="0.8"/><rect x="61" y="48" width="4" height="6" rx="0.8"/><rect x="70.5" y="48" width="4" height="6" rx="0.8"/>
+  <rect x="23" y="58" width="4" height="6" rx="0.8"/><rect x="32.5" y="58" width="4" height="6" rx="0.8"/><rect x="42" y="58" width="4" height="6" rx="0.8"/><rect x="51.5" y="58" width="4" height="6" rx="0.8"/><rect x="61" y="58" width="4" height="6" rx="0.8"/><rect x="70.5" y="58" width="4" height="6" rx="0.8"/>
+  <rect x="23" y="68" width="4" height="6" rx="0.8"/><rect x="32.5" y="68" width="4" height="6" rx="0.8"/><rect x="42" y="68" width="4" height="6" rx="0.8"/><rect x="51.5" y="68" width="4" height="6" rx="0.8"/><rect x="61" y="68" width="4" height="6" rx="0.8"/><rect x="70.5" y="68" width="4" height="6" rx="0.8"/>
+</g>
+<path d="M 16 50 L 30 50 L 34 50 L 40 34 L 46 66 L 52 42 L 58 58 L 62 50 L 84 50" stroke="url(#pylsTrace)" stroke-width="2.4" stroke-linejoin="round" stroke-linecap="round" fill="none" filter="url(#pylsGlow)"/>
+<path d="M 16 50 L 30 50 L 34 50 L 40 34 L 46 66 L 52 42 L 58 58 L 62 50 L 84 50" stroke="#F4F5F8" stroke-opacity="0.38" stroke-width="0.7" stroke-linejoin="round" stroke-linecap="round" fill="none"/>
+<circle cx="62" cy="50" r="6" fill="url(#pylsNodeGlow)"/><circle cx="62" cy="50" r="2.2" fill="#7EE787"/><circle cx="62" cy="50" r="0.9" fill="#F4F5F8"/>
+<circle cx="40" cy="34" r="5.5" fill="url(#pylsPulseGlow)"/><circle cx="40" cy="34" r="1.8" fill="#FFB454"/><circle cx="40" cy="34" r="0.8" fill="#F4F5F8"/>
+<circle cx="16" cy="50" r="1.8" fill="#FFB454" fill-opacity="0.75"/><circle cx="84" cy="50" r="1.8" fill="#7EE787" fill-opacity="0.85"/>
+</svg>
